@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*headers*/
+.topHeader{
+    background: #f4f4f4;
+    padding: 10px 0 9px;
+    font-size: 12px;
+}
+.topHeaderContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topHeader li{
+    display: inline-block;
+    line-height: 12px;
+    padding: 3px 12px;
+    border-left: 1px solid #e2e2e2;
+    
+}
+
+.topHeader li a{
+    color: #888888;
+  
+    
+}
+
+.midHeader .row {
+    text-align: center;
+}
+.searchArea{
+    display: flex;
+    justify-content: center;
+}
+.dropdown{
+    position: relative;
+}
+
+.lnk-cart{
+    padding: 0px;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+    display: inline-block;
+    color: #666666;
+}
+.items-cart-inner{
+    position:relative;
+}
+.total-price-basket{
+    padding: 13px 15px;
+    font-family: 'FjallaOneRegular';
+    text-transform: uppercase;
+    float: left;
+}
+.basket{
+    float: right;
+    background: #efefef;
+    padding: 12px;
+    border-left: 1px solid #e1e1e1;
+    padding: 13px 15px;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    
+}
+.glyphicon-shopping-cart::before {
+    content: "\e116";
+}
+.basket-item-count {
+    border-radius: 100px;
+    height: 21px;
+    position: absolute;
+    right: 33px;
+    top: -13px;
+    width: 21px;
+    background: #f1c40f;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+.cardsContainer .card{
+    min-width: 250px;
+}
+.cardsContainer .card img{
+    width: 30px;
+}
